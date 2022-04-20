@@ -1,0 +1,52 @@
+.aside{
+    background: $color-white;
+    border-right: 1px solid rgba(0,0,0,0.1);
+
+    .brand{
+        font-size: 20px;
+        color: $color-white;
+        font-weight: 700;
+        background: rgba(95,83,152, 1);
+        background: linear-gradient(17deg, rgba(95,83,152,1) 38%, rgba(47,72,87,1) 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    &__nav{
+        margin-top: 60px;
+
+        &__list{
+            list-style: none;
+        }
+
+        &__item{
+            margin-bottom: 5px;
+        }
+
+        &__link{
+            display: flex;
+            align-items: center;
+            color: $color-menu;
+            font-weight: 500;
+            cursor: pointer;
+            padding: 12px 35px;
+
+            &:hover{
+                background: $color-accent;
+                color: $color-white;
+            
+                svg{
+                    transform: translateX(-2px);
+                }
+            }
+        }
+
+        &__icon{
+            font-size: 20px;
+            margin-right: 10px;
+            transition: all 0.5s ease-in-out;
+        }
+    }
+}

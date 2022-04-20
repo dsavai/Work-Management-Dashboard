@@ -1,0 +1,13 @@
+
+//imports for all scss files
+@import "./theme/base.scss";
+@import "./theme/colors.scss";
+@import "./app.scss";
+
+
+//aside main menu imports
+@import "./components/AsideBar/index.scss";
+
+
+//topbar import
+@import "./components/topbar/index.scss";

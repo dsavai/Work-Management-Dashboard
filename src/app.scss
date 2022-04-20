@@ -1,0 +1,9 @@
+//app styling
+
+.dashboard{
+    background: $color-gray;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: 260px 1fr;
+}

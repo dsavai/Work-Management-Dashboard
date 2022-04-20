@@ -1,9 +1,12 @@
-import './App.css';
+import MainContentCenter from "./components/MainContentCenter";
+import AsideBar from "./components/asideBar/AsideBar";
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>Welcome</h1>
+    <div className="dashboard">
+      <AsideBar />
+      <MainContentCenter />
     </div>
   );
 }

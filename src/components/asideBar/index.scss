@@ -32,21 +32,24 @@
             font-weight: 500;
             cursor: pointer;
             padding: 12px 35px;
+            
+            svg, span{
+                transition: transform 0.5s ease-in-out;
+            }
 
             &:hover{
                 background: $color-accent;
                 color: $color-white;
             
-                svg{
+                svg, span{
                     transform: translateX(-2px);
                 }
             }
         }
-
+        
         &__icon{
             font-size: 20px;
             margin-right: 10px;
-            transition: all 0.5s ease-in-out;
         }
     }
 }

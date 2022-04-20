@@ -5,7 +5,7 @@ function MainMenuBar() {
         <div className="aside">
             <div className="aside__top">
                 <div className="brand">
-                    <span>Score Tracker</span>
+                    <span>Task Tracker</span>
                 </div>
             </div>
             <div className="aside__center">

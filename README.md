@@ -4,7 +4,7 @@ Dashboard for work management tool which helps agencies, projects managers, prof
 
 
 ### UI Design from Dribble
-MindInventory UI/UX [find it here](https://dribbble.com/shots/17100836-Work-Management-Dashboard-Exploration)
+Designed by MindInventory UI/UX [find it here](https://dribbble.com/shots/17100836-Work-Management-Dashboard-Exploration)
 
 ### Technologies used
 ReactJS
